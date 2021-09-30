@@ -28,6 +28,13 @@ h2{
   padding: 20px;
 }
 
+h3{
+  font: 60px helvetica;
+  color: white;
+  text-decoration-line: none;
+  text-align: center;
+}
+
 ul{
   list-style: none;
   text-align: center;
@@ -42,7 +49,7 @@ a{
   border: 2px solid;
   border-radius: 10px;
   padding: 10px;
-  background: rgba(230, 50, 90, 0.8)
+  background: rgba(230, 50, 90, 0.8);
 }
 
 <!--
