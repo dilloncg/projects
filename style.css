@@ -16,14 +16,11 @@ h1{
   padding: 20px;
 }
 
-h2{
-  font: 60px helvetica;
-  font-style: normal;
-  color: white;
-  background: rgb(250, 100, 0);
-  border-radius: 30px;
-  border: 5px solid;
-  padding: 20px;
+ul{
+  list-style: none;
+  margin-bottom: 90px;
+  margin-right: 90px;
+  text-align: center;
 }
 
 .classproject{
@@ -31,40 +28,43 @@ h2{
   font-style: normal;
   text-decoration-line: none;
   color: white;
-  background: rgb(250, 100, 0);
   border-radius: 30px;
   border: 5px solid;
-  padding: 15px;
+  padding: 10px;
 }
 
 .classproject:hover{
   background-color: white;
 }
 
-h3{
-  font: 60px helvetica;
-  color: white;
-  text-decoration-line: none;
-}
-
-ul{
-  list-style: none;
-  margin-bottom: 60px;
-  margin-right: 50px;
-  text-align: center;
-}
-
-a{
+.home{
   font: 45px helvetica;
   color: white;
+  text-align: center;
   text-decoration-line: none;
   border: 2px solid;
   border-radius: 10px;
   padding: 10px;
-  background: rgba(230, 50, 90, 0.8);
+  background: rgba(230, 50, 90, 0.8)
 }
 
-a:hover
+.home:hover
+{
+  background-color: white;
+}
+
+.project{
+  font: 60px helvetica;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  background: rgb(250, 100, 0);
+  border-radius: 30px;
+  border: 5px solid;
+  padding: 20px;
+}
+
+.project:hover
 {
   background-color: white;
 }
